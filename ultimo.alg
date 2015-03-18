@@ -5,12 +5,14 @@ algoritmo "semnome"
 //No final, o algoritmo deve imprimir o resultado.
 
 var
-  a:inteiro
-  
+a:inteiro
+
 inicio
- escreva ("informe numero a")
- leia(a)
- se a > 10 entao div 2
- 
-// Seção de Comandos 
+escreva ("informe numero a")
+leia(a)
+se a > 10 entao
+   a <- 2
+fimse
+
+// Seção de Comandos
 fimalgoritmo
